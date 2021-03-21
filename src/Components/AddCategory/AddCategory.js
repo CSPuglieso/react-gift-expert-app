@@ -14,8 +14,14 @@ const AddCategory = ({setCategories}) => {
 
         if( inputValue.trim().length > 2)
         {
+
+
             setCategories( cats => [ inputValue ,...cats]);
             setInputValue('');
+        
+            //pruebas de commit
+        
+        
         }
             
     }
